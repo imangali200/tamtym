@@ -4,10 +4,10 @@
       <img class="tw-h-[22px] tw-w-[22px]" src="/home.png" alt="" />
       <span class="tw-text-[10px] tw-text-[#8E8E93]">Продаю</span>
     </div>
-    <div class="tw-flex tw-flex-col tw-items-center tw-gap-1">
+    <Nuxtlink to="/buy" class="tw-flex tw-flex-col tw-items-center tw-gap-1">
       <img class="tw-h-[22px] tw-w-[22px]" src="/buy.png" alt="" />
       <span class="tw-text-[10px] tw-text-[#8E8E93]">Куплю</span>
-    </div>
+    </Nuxtlink>
     <div class="tw-flex tw-flex-col tw-items-center tw-gap-1">
       <img class="tw-h-[22px] tw-w-[22px]" src="/create.png" alt="" />
       <span class="tw-text-[10px] tw-text-[#8E8E93]">Создать</span>
