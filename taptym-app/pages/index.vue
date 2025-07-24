@@ -11,7 +11,11 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const appConfig = useAppConfig();
+
+console.log(appConfig);
+</script>
 <style>
 body {
   background-color: aliceblue;
